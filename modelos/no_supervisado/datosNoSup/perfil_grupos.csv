@@ -1,0 +1,5 @@
+grupo,municipios,n_sismos,sismos_x_anio,mag_media,mag_max,mag_std,mag_p90,pct_m3_mas,pct_m4_mas,log_energia,prof_media,prof_std,pct_superficial,pct_intermedia,pct_profunda,rms_medio,gap_medio,fases_medias,frac_reciente,dist_nido_km,dist_falla_km
+Alto,8,34.0,2.0,1.64,2.95,0.45,2.2,0.01,0.0,9.62,53.19,60.87,0.53,0.29,0.06,0.62,175.66,11.92,0.37,63.72,1.32
+Bajo,23,57.0,3.35,1.88,3.3,0.46,2.47,0.02,0.0,10.09,127.6,46.44,0.11,0.52,0.36,0.48,164.67,11.55,0.39,49.71,2.09
+Moderado,37,430.0,25.29,1.68,3.6,0.39,2.1,0.01,0.0,10.8,110.93,24.65,0.04,0.92,0.01,0.47,123.9,15.88,0.39,79.18,3.31
+Muy alto,14,804.0,47.29,1.8,4.45,0.47,2.35,0.03,0.0,11.82,136.09,26.87,0.03,0.75,0.21,0.46,171.34,10.65,0.37,24.01,1.51
