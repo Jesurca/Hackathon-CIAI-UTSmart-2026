@@ -1,0 +1,17 @@
+# Entornos y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secretos
+.env
+
+# Datos crudos: no se versionan (ver datos/raw/README.md)
+datos/raw/*
+!datos/raw/README.md
+
+# Sistema
+Thumbs.db
+.DS_Store

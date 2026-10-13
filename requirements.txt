@@ -1,0 +1,17 @@
+# Dependencias semilla del equipo (ajustar según cada modelo)
+# Datos y análisis
+pandas
+numpy
+scikit-learn
+matplotlib
+
+# Geodatos y visualización
+geopandas
+folium
+plotly
+streamlit
+
+# Modelos
+joblib
+gymnasium
+stable-baselines3
