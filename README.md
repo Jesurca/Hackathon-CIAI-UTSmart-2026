@@ -6,7 +6,7 @@ Repo del equipo (categoría **Avanzada**) para el reto "Santander Inteligente: I
 |---|---|---|
 | Supervisado de clasificación | Básico | `modelos/supervisado/` |
 | No supervisado (patrones territoriales) | Medio | `modelos/no_supervisado/` |
-| Aprendizaje por refuerzo (priorización) | Avanzado | `modelos/refuerzo/` |
+| Aprendizaje por refuerzo (priorización) | Avanzado | App: `app/sismo_app_F/sismo_app/agente_rl/` |
 
 - **Brief completo y consultable:** [`Docs/RETO-HACKATHON-CIAI-UTSmart-2026.md`](Docs/RETO-HACKATHON-CIAI-UTSmart-2026.md). Consúltalo antes de preguntar (requisitos, rúbricas, agenda, fuentes y reglas).
 - **Fechas clave:** entrega cerrada 13 oct 2026, 12:00 m. · presentaciones 14:00–16:45 · premiación 16 oct.
@@ -22,9 +22,8 @@ Hackathon-CIAI-UTSmart-2026/
 ├── notebooks/               # scripts compartidos (limpieza de catálogos y fallas)
 ├── modelos/
 │   ├── supervisado/         # Nivel Básico
-│   ├── no_supervisado/      # Nivel Medio
-│   └── refuerzo/            # Nivel Avanzado (RL)
-├── app/                     # prototipo Streamlit
+│   └── no_supervisado/      # Nivel Medio
+├── app/                     # app Streamlit (incluye el agente RL del Nivel Avanzado)
 ├── Presentacion/            # checklist del jurado + pitch/
 ├── AGENTS.md                # contexto para asistentes de IA
 ├── requirements.txt
@@ -54,7 +53,7 @@ Hackathon-CIAI-UTSmart-2026/
 | `notebooks/` | Scripts compartidos: limpieza de catálogos y fallas | equipo |
 | `modelos/supervisado/` | Notebook + artefacto + card | en progreso |
 | `modelos/no_supervisado/` | Notebook + `modelo_no_supervisado.joblib` + card | en progreso |
-| `modelos/refuerzo/` | Entorno + agente RL + card | pendiente |
+| `app/sismo_app_F/sismo_app/agente_rl/` | Agente de refuerzo (lo entrena o carga la app) | en progreso |
 | `app/` | App Streamlit del equipo (3 vistas) — `app/sismo_app_F/sismo_app/` | en progreso |
 | `Presentacion/` | Checklist del jurado, diccionario, fuente citada y pitch | equipo |
 

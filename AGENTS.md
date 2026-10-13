@@ -12,7 +12,7 @@ Reto de categoría Avanzada ("Santander Inteligente": riesgo sísmico en Santand
 
 - `datos/raw/` (versionado) y `datos/processed/` (dataset limpio compartido).
 - `notebooks/` (cuadernos compartidos).
-- `modelos/{supervisado,no_supervisado,refuerzo}/` (un dueño por carpeta: notebook + artefacto + card).
+- `modelos/{supervisado,no_supervisado}/` (un dueño por carpeta: notebook + artefacto + card); el agente de refuerzo vive dentro de la app (`app/sismo_app_F/sismo_app/agente_rl/`).
 - `app/` (prototipo Streamlit) y `Presentacion/` (documentos del jurado).
 - `Docs/` documentación del reto.
 
