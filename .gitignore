@@ -9,8 +9,6 @@ __pycache__/
 .env
 
 # Datos crudos: no se versionan (ver datos/raw/README.md)
-datos/raw/*
-!datos/raw/README.md
 
 # Sistema
 Thumbs.db
