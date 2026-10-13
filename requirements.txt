@@ -4,6 +4,8 @@ pandas
 numpy
 scikit-learn
 matplotlib
+openpyxl
+python-calamine
 
 # Geodatos y visualización
 geopandas
