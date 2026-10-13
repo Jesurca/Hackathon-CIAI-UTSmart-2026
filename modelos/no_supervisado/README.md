@@ -37,9 +37,9 @@ Con los datos actuales: 23 Bajo · 37 Moderado · 8 Alto · 14 Muy alto.
 
 ## Límites (decirlos en el pitch)
 
-- Falta 2014–2017.
-- Falta población/vivienda por municipio (DANE) para hablar de riesgo real.
-- La distancia a fallas es aproximada (del centro del municipio al punto más cercano).
+- **Falta 2014–2017**: ese bloque de datos no se descargó y no hay sismos en el archivo para esos 4 años. Las tasas por año se calculan solo con los años que sí existen (2006–2013 y 2018–2026).
+- **Falta población/vivienda por municipio (DANE)**: el modelo mide qué tanto tiembla (amenaza), no cuánta gente o casas hay en el camino (riesgo real).
+- **La distancia a fallas es aproximada**: se mide desde el centro del municipio al punto más cercano de la falla, no desde cada casa.
 
 ## Cargar el modelo
 
