@@ -10,10 +10,10 @@ Reto de categoría Avanzada ("Santander Inteligente": riesgo sísmico en Santand
 
 ## Estructura
 
-- `datos/raw/` (ignorado en git) y `datos/processed/` (dataset limpio compartido).
+- `datos/raw/` (versionado) y `datos/processed/` (dataset limpio compartido).
 - `notebooks/` (cuadernos compartidos).
 - `modelos/{supervisado,no_supervisado,refuerzo}/` (un dueño por carpeta: notebook + artefacto + card).
-- `app/` (prototipo Streamlit) y `entregables/` (documentos del jurado).
+- `app/` (prototipo Streamlit) y `Presentacion/` (documentos del jurado).
 - `Docs/` documentación del reto.
 
 ## Stack (previsto, por confirmar)
@@ -24,5 +24,5 @@ Python 3 (pandas, scikit-learn, GeoPandas), Google Colab, Streamlit, gymnasium/S
 
 - Commits directos a `main`; cada quien toca solo su carpeta; `git pull` antes de push.
 - Documentación en español en `Docs/`; el brief es la fuente única (no dupliques datos entre docs).
-- No versionar `datos/raw/`, `.env` ni entornos; artefactos de más de 50 MB por enlace externo.
+- Los crudos de `datos/raw/` se versionan si pesan menos de 50 MB; no versionar `.env` ni entornos.
 - Antes de tocar modelos o datos, revisa §3, §5 y §7 del brief.

@@ -115,7 +115,7 @@ Un proyecto que no cumpla puede presentarse, pero **no es elegible para premiaci
 | 6.5 | Datos Abiertos Colombia | https://www.datos.gov.co/ | Incluye el reporte histórico de emergencias por desastres naturales de la Gobernación de Santander |
 | 6.6 | DANE e IGAC | https://www.dane.gov.co/ | Población y vivienda por municipio, límites, cartografía, altitud y suelos |
 
-**Reglas de citación `[OFICIAL]`:** citar por cada fuente la dirección web, la fecha de descarga y los filtros aplicados. Registrar en `entregables/fuente_oficial.md` y en el log de `datos/raw/README.md` al descargar.
+**Reglas de citación `[OFICIAL]`:** citar por cada fuente la dirección web, la fecha de descarga y los filtros aplicados. Registrar en `Presentacion/fuente_oficial.md` y en el log de `datos/raw/README.md` al descargar.
 
 ## 7. Datos: origen, estructura y limpieza `[OFICIAL]`
 
@@ -133,14 +133,14 @@ Un proyecto que no cumpla puede presentarse, pero **no es elegible para premiaci
 | # | Entregable | Ubicación en el repo | Estado |
 |---|---|---|---|
 | 1 | Dataset limpio (CSV) | `datos/processed/dataset_limpio.csv` | pendiente |
-| 2 | Diccionario de datos con justificación por variable | `entregables/diccionario_de_datos.md` | pendiente |
-| 3 | Fuente oficial citada (dirección web, fecha y filtros) | `entregables/fuente_oficial.md` | pendiente |
+| 2 | Diccionario de datos con justificación por variable | `Presentacion/diccionario_de_datos.md` | pendiente |
+| 3 | Fuente oficial citada (dirección web, fecha y filtros) | `Presentacion/fuente_oficial.md` | pendiente |
 | 4 | Código del análisis y del entrenamiento (cuaderno o repo reproducible) | `notebooks/` y `modelos/*/` | pendiente |
 | 5 | El modelo obligatorio de la categoría con sus métricas y validación | cards en `modelos/*/README.md` | pendiente |
 | 6 | El prototipo o la demostración | `app/` | pendiente |
-| 7 | La presentación para el pitch final | `entregables/pitch/` | pendiente |
+| 7 | La presentación para el pitch final | `Presentacion/pitch/` | pendiente |
 
-> La web oficial agrupa 1 + 2 y enumera 6 entregables; aquí se separan para seguimiento. Checklist vivo en `entregables/README.md`.
+> La web oficial agrupa 1 + 2 y enumera 6 entregables; aquí se separan para seguimiento. Checklist vivo en `Presentacion/README.md`.
 
 ## 9. Reglas de participación `[OFICIAL]`
 
@@ -225,7 +225,7 @@ Recomendaciones del brief del equipo (no son requisitos oficiales):
 - [ ] Producir `datos/processed/dataset_limpio.csv` y el diccionario de datos (entregables 1–2).
 - [ ] Entrenar los modelos: supervisado (Básico), no supervisado (Medio) y agente RL (Avanzado).
 - [ ] Construir el prototipo en `app/` con los 3 modelos.
-- [ ] Preparar el pitch en `entregables/pitch/`.
+- [ ] Preparar el pitch en `Presentacion/pitch/`.
 - [ ] Confirmar con mentores la composición de los 3 modelos y la variable objetivo (§13).
 
 ## 16. Registro de cambios del documento

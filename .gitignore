@@ -8,7 +8,7 @@ __pycache__/
 # Secretos
 .env
 
-# Datos crudos: no se versionan (ver datos/raw/README.md)
+# Datos crudos: versionados (ver datos/raw/README.md)
 
 # Sistema
 Thumbs.db
