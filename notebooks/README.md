@@ -6,6 +6,7 @@ Cuadernos y scripts del pipeline común (el EDA y el entrenamiento de cada model
 |---|---|---|
 | 01 | 01_limpieza_catalogos.py | Unifica los catálogos del SGC (formato viejo y nuevo), elimina duplicados y escribe `datos/processed/dataset_limpio.csv` (solo eventos) |
 | 03 | 03_preparar_fallas.py | Filtra lineamientos, cubiertas e inferidas del Atlas de Fallas 2020 (SGC), recorta al área de Santander y calcula longitudes en metros |
+| 04 | 04_exportar_para_app.py | Exporta el catálogo limpio y los clusters al formato de la app Streamlit (`datos/para_app/`) |
 
 Reglas: rutas relativas al repo; el resultado procesado va a `datos/processed/`.
 
