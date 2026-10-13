@@ -30,6 +30,20 @@ Hackathon-CIAI-UTSmart-2026/
 └── README.md
 ```
 
+## Cómo correr el prototipo (Streamlit)
+
+La app integra las tres vistas del reto (Básico, Medio y Avanzado) y arranca con datos de demostración; los datos reales se cargan en la sección **📥 Cargar datos** (guía completa: [`app/sismo_app_F/sismo_app/LEEME.md`](app/sismo_app_F/sismo_app/LEEME.md)).
+
+Desde la raíz del repo:
+
+```bash
+python -m streamlit run app/sismo_app_F/sismo_app/app.py
+```
+
+- En Windows también funciona con doble clic en [`run_app.bat`](run_app.bat).
+- Se abre en `http://localhost:8501`; para detenerla, `Ctrl + C`.
+- Dependencias: `streamlit`, `plotly`, `pandas` y `numpy` (ya están en `requirements.txt`).
+
 ## Cómo colaborar (commits directos a `main`)
 
 **Regla de oro:** cada quien toca SOLO su carpeta; nadie edita archivos compartidos (`datos/processed/`, README raíz) sin avisar al equipo.
