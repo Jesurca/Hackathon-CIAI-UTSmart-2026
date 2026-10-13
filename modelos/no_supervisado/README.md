@@ -7,7 +7,12 @@ Agrupa los municipios de Santander según cómo se comportan los sismos. No usa 
 1. Primero corre la limpieza del catálogo (crea el dataset):
    `python notebooks/01_limpieza_catalogos.py`
 2. Abre `modelo_no_supervisado.ipynb` y dale **Restart & Run All**.
-3. Al terminar, mira los archivos que deja en esta carpeta.
+
+No importa desde qué carpeta lo abras: el propio cuaderno encuentra la raíz del repo. En Colab, sube el CSV (y el de fallas) a `datos/processed/`.
+
+## Caché (para no reentrenar siempre)
+
+La primera corrida entrena y guarda `modelo_no_supervisado.joblib`. Las siguientes lo cargan (dice "Caché cargada") y terminan en segundos. Si cambia el dataset, las fallas o un parámetro, se reentrena sola. Para forzar reentreno: borra el `.joblib`.
 
 ## Qué usa
 
@@ -20,11 +25,11 @@ Detalles: ventana 2006–2026 · magnitud Ml (el 99 % de los sismos viene así) 
 
 | Archivo | Qué es |
 |---|---|
-| `grupo_por_municipio.csv` | Cada municipio con su grupo |
-| `perfil_grupos.csv` | Cómo es cada grupo (medianas) |
-| `comparacion_modelos.csv` | Métricas de KMeans, Ward y GMM |
-| `importancia_variables.csv` | Qué variables separan los grupos |
-| `modelo_no_supervisado.joblib` | El modelo guardado |
+| `datosNoSup/grupo_por_municipio.csv` | Cada municipio con su grupo |
+| `datosNoSup/perfil_grupos.csv` | Cómo es cada grupo (medianas) |
+| `datosNoSup/comparacion_modelos.csv` | Métricas de KMeans, Ward y GMM |
+| `datosNoSup/importancia_variables.csv` | Qué variables separan los grupos |
+| `modelo_no_supervisado.joblib` | Caché + artefacto: preprocesado, modelo y etiquetas |
 
 ## Los 4 grupos
 
