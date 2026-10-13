@@ -52,10 +52,10 @@ Hackathon-CIAI-UTSmart-2026/
 | `datos/raw/` | Descargas originales (versionadas) + registro de fuentes | dueño de datos |
 | `datos/processed/` | `dataset_limpio.csv` y fallas limpias (contrato de los 3 modelos) | dueño de datos |
 | `notebooks/` | Scripts compartidos: limpieza de catálogos y fallas | equipo |
-| `modelos/supervisado/` | Notebook + artefacto + card | pendiente |
+| `modelos/supervisado/` | Notebook + artefacto + card | en progreso |
 | `modelos/no_supervisado/` | Notebook + `modelo_no_supervisado.joblib` + card | en progreso |
 | `modelos/refuerzo/` | Entorno + agente RL + card | pendiente |
-| `app/` | Prototipo Streamlit con los 3 modelos | pendiente |
+| `app/` | App Streamlit del equipo (3 vistas) — `app/sismo_app_F/sismo_app/` | en progreso |
 | `Presentacion/` | Checklist del jurado, diccionario, fuente citada y pitch | equipo |
 
 ## Entregables (12:00 m.)

@@ -1,0 +1,36 @@
+municipio,cluster,nombre_cluster,PC1,PC2
+ARATOCA,3,"Alta actividad, alta vulnerabilidad",-1.777,0.39
+BARBOSA,2,"Baja actividad, menor vulnerabilidad",1.221,1.687
+BARICHARA,1,"Actividad media, alta vulnerabilidad",-0.466,-1.945
+BARRANCABERMEJA,2,"Baja actividad, menor vulnerabilidad",1.511,3.167
+BETULIA,1,"Actividad media, alta vulnerabilidad",-0.755,-1.228
+BUCARAMANGA,0,"Alta actividad, menor vulnerabilidad",-1.793,2.798
+CALIFORNIA,1,"Actividad media, alta vulnerabilidad",0.398,-0.489
+CEPITA,3,"Alta actividad, alta vulnerabilidad",-1.491,-0.255
+CHARALA,1,"Actividad media, alta vulnerabilidad",0.168,-0.311
+CIMITARRA,2,"Baja actividad, menor vulnerabilidad",2.288,1.056
+CONCEPCION,1,"Actividad media, alta vulnerabilidad",0.812,-0.461
+CURITI,1,"Actividad media, alta vulnerabilidad",-0.803,-1.021
+EL CARMEN DE CHUCURI,1,"Actividad media, alta vulnerabilidad",0.224,-0.683
+FLORIDABLANCA,0,"Alta actividad, menor vulnerabilidad",-1.616,1.879
+GIRON,0,"Alta actividad, menor vulnerabilidad",-1.723,2.104
+LANDAZURI,2,"Baja actividad, menor vulnerabilidad",2.512,0.949
+LEBRIJA,1,"Actividad media, alta vulnerabilidad",-0.35,-1.121
+LOS SANTOS,3,"Alta actividad, alta vulnerabilidad",-1.971,-1.559
+MALAGA,1,"Actividad media, alta vulnerabilidad",0.276,-0.262
+MATANZA,1,"Actividad media, alta vulnerabilidad",-0.023,-0.779
+MOGOTES,1,"Actividad media, alta vulnerabilidad",-0.217,-0.464
+OIBA,0,"Alta actividad, menor vulnerabilidad",-0.512,0.873
+PIEDECUESTA,0,"Alta actividad, menor vulnerabilidad",-2.301,2.604
+PUERTO PARRA,2,"Baja actividad, menor vulnerabilidad",2.9,0.653
+PUERTO WILCHES,2,"Baja actividad, menor vulnerabilidad",2.565,-0.094
+RIONEGRO,1,"Actividad media, alta vulnerabilidad",0.247,-1.98
+SABANA DE TORRES,1,"Actividad media, alta vulnerabilidad",1.729,-1.47
+SAN GIL,1,"Actividad media, alta vulnerabilidad",-0.869,-0.144
+SAN VICENTE DE CHUCURI,1,"Actividad media, alta vulnerabilidad",-0.034,-0.538
+SIMACOTA,1,"Actividad media, alta vulnerabilidad",-0.206,-0.497
+SOCORRO,1,"Actividad media, alta vulnerabilidad",-0.479,-0.852
+TONA,1,"Actividad media, alta vulnerabilidad",-0.097,-1.143
+VELEZ,2,"Baja actividad, menor vulnerabilidad",1.704,0.64
+VETAS,1,"Actividad media, alta vulnerabilidad",0.158,-0.678
+ZAPATOCA,3,"Alta actividad, alta vulnerabilidad",-1.231,-0.827
