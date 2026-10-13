@@ -17,15 +17,15 @@ Repo del equipo (categoría **Avanzada**) para el reto "Santander Inteligente: I
 Hackathon-CIAI-UTSmart-2026/
 ├── Docs/                    # brief y documentación del reto
 ├── datos/
-│   ├── raw/                 # descargas originales (ignoradas por git)
+│   ├── raw/                 # descargas originales (versionadas, tope 50 MB por archivo)
 │   └── processed/           # dataset_limpio.csv (contrato compartido de los 3 modelos)
-├── notebooks/               # cuadernos compartidos (descarga, limpieza, EDA)
+├── notebooks/               # scripts compartidos (limpieza de catálogos y fallas)
 ├── modelos/
 │   ├── supervisado/         # Nivel Básico
 │   ├── no_supervisado/      # Nivel Medio
 │   └── refuerzo/            # Nivel Avanzado (RL)
 ├── app/                     # prototipo Streamlit
-├── entregables/             # checklist del jurado + pitch/
+├── Presentacion/            # checklist del jurado + pitch/
 ├── AGENTS.md                # contexto para asistentes de IA
 ├── requirements.txt
 └── README.md
@@ -40,8 +40,8 @@ Hackathon-CIAI-UTSmart-2026/
 3. `git add .` y commit con formato Conventional Commits: `feat(modelo-supervisado): entrena random forest inicial`.
 4. `git push`.
 
-- No subir: `datos/raw/` (ya ignorado por git), `.env`, `.venv/`, checkpoints.
-- Artefactos de más de 50 MB: no los subas; documenta el enlace externo en la card de tu modelo.
+- No subir: `.env`, `.venv/`, checkpoints.
+- Los crudos de `datos/raw/` se versionan si pesan menos de 50 MB; si pesan más, se deja el enlace.
 - El dataset compartido (`datos/processed/dataset_limpio.csv`) solo lo modifica el dueño de datos; los demás lo consumen.
 
 ## Qué va en cada carpeta
@@ -49,15 +49,15 @@ Hackathon-CIAI-UTSmart-2026/
 | Carpeta | Contenido | Dueño |
 |---|---|---|
 | `Docs/` | Brief y documentación del reto | equipo |
-| `datos/raw/` | Descargas originales (no versionadas) + registro de fuente | dueño de datos |
-| `datos/processed/` | `dataset_limpio.csv` (contrato de los 3 modelos) | dueño de datos |
-| `notebooks/` | Cuadernos compartidos: descarga/unificación y limpieza/EDA | equipo |
-| `modelos/supervisado/` | Notebook + `modelo_supervisado.pkl` + card | pendiente |
-| `modelos/no_supervisado/` | Notebook + `modelo_no_supervisado.pkl` + card | pendiente |
+| `datos/raw/` | Descargas originales (versionadas) + registro de fuentes | dueño de datos |
+| `datos/processed/` | `dataset_limpio.csv` y fallas limpias (contrato de los 3 modelos) | dueño de datos |
+| `notebooks/` | Scripts compartidos: limpieza de catálogos y fallas | equipo |
+| `modelos/supervisado/` | Notebook + artefacto + card | pendiente |
+| `modelos/no_supervisado/` | Notebook + `modelo_no_supervisado.joblib` + card | en progreso |
 | `modelos/refuerzo/` | Entorno + agente RL + card | pendiente |
 | `app/` | Prototipo Streamlit con los 3 modelos | pendiente |
-| `entregables/` | Checklist del jurado, diccionario, fuente citada y pitch | equipo |
+| `Presentacion/` | Checklist del jurado, diccionario, fuente citada y pitch | equipo |
 
 ## Entregables (12:00 m.)
 
-Checklist con estado y ubicación: [`entregables/README.md`](entregables/README.md).
+Checklist con estado y ubicación: [`Presentacion/README.md`](Presentacion/README.md).
