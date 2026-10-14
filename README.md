@@ -44,6 +44,16 @@ python -m streamlit run app/sismo_app_F/sismo_app/app.py
 - Se abre en `http://localhost:8501`; para detenerla, `Ctrl + C`.
 - Dependencias: `streamlit`, `plotly`, `pandas` y `numpy` (ya están en `requirements.txt`).
 
+### Desplegar en Streamlit Community Cloud
+
+Repo listo para [share.streamlit.io](https://share.streamlit.io) (público, rama `main`):
+
+1. **Create app** → repositorio `Jesurca/Hackathon-CIAI-UTSmart-2026`, rama `main`.
+2. **Main file path:** `app/sismo_app_F/sismo_app/app.py` → **Deploy**.
+3. Queda una URL tipo `https://<nombre>.streamlit.app` que se actualiza sola con cada push a `main`.
+
+La nube instala las dependencias de `app/sismo_app_F/sismo_app/requirements.txt` (las 4 de la app + `openpyxl` y `scikit-learn`) y lee la configuración de `.streamlit/config.toml` **de la raíz del repo**; la copia dentro de la carpeta de la app solo aplica al ejecutarla localmente.
+
 ## Cómo colaborar (commits directos a `main`)
 
 **Regla de oro:** cada quien toca SOLO su carpeta; nadie edita archivos compartidos (`datos/processed/`, README raíz) sin avisar al equipo.

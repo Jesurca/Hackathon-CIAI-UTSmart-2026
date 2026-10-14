@@ -1,9 +1,10 @@
-# Solo 4 librerías (sin PyTorch, sin GPU): el agente está escrito en NumPy
+# Solo 4 librerías obligatorias (sin PyTorch, sin GPU): el agente está escrito en NumPy
 streamlit>=1.40
 plotly>=5.24
 pandas>=2.1
 numpy>=1.26
 
-# OPCIONALES (la app funciona sin ellas):
-#   openpyxl      -> leer/descargar Excel (sin ella: usar CSV / descargar .zip de CSV)
-#   scikit-learn  -> abrir los modelos .pkl de los compañeros (sin ella: se usan sus CSV de resultados)
+# Incluidas para la app desplegada (localmente siguen siendo opcionales, con reemplazo automático):
+openpyxl>=3.1        # leer/descargar Excel (sin ella: usar CSV / descargar .zip de CSV)
+scikit-learn==1.9.1  # abrir los modelos .pkl (demo y del equipo); fijada a la versión de entrenamiento
+
