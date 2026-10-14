@@ -4,6 +4,7 @@
 # la fila del trimestre t usa SOLO datos hasta el final de t, y la etiqueta es el nivel
 # del trimestre t+1 (terciles de energía calculados únicamente con el tramo de train).
 # Uso: python notebooks/05_supervisado_para_app.py
+import joblib
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -22,7 +23,8 @@ SALIDA = RAIZ / "datos" / "para_app" / "supervisado_resultados.csv"
 
 # --- Parámetros del experimento (quedan a la vista del jurado) ---
 CLASES = ["Bajo", "Medio", "Alto"]         # terciles de energía del trimestre siguiente
-FEATURES = ["n_sismos", "mag_media", "mag_max", "energia_log", "prof_media", "pct_superficial"]
+# Los nombres coinciden con las columnas del panel de la app, para que el .pkl también aplique.
+FEATURES = ["n_sismos", "mag_media", "mag_max", "energia_log", "prof_media", "pct_superficiales"]
 CORTE_TRAIN = pd.Period("2021Q4", freq="Q")  # todo lo anterior, train
 CORTE_VAL = pd.Period("2023Q4", freq="Q")    # hasta aquí val; el resto, test
 SEMILLA = 42
@@ -45,7 +47,7 @@ panel = (eventos.groupby(["municipio", "trimestre"])
               mag_max=("mag", "max"),
               energia_log=("energia", lambda s: np.log10(s.sum())),
               prof_media=("prof_km", "mean"),
-              pct_superficial=("superficial", "mean"))
+              pct_superficiales=("superficial", "mean"))
          .reset_index())
 
 # La etiqueta es el nivel del trimestre inmediatamente siguiente; se exige que sea el
@@ -83,6 +85,10 @@ for nombre, modelo in candidatos.items():
     print(f"{nombre}: F1 macro (val) = {f1:.3f}")
     if f1 > mejor_f1:
         mejor_nombre, mejor_f1, mejor_modelo = nombre, f1, modelo
+
+# El modelo entrenado va al kit de la app (por si algún día falta el CSV): el .pkl guarda
+# los nombres de columna del panel, así que la app puede aplicarlo solo.
+joblib.dump(mejor_modelo, RAIZ / "datos" / "para_app" / "supervisado_modelo.pkl")
 
 # Predicciones y probabilidades para TODAS las filas (las de train son dentro de muestra,
 # solo sirven para completar el archivo; las métricas que importan son val y test).
