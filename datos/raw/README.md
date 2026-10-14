@@ -11,11 +11,14 @@ Desde el 13 de octubre estos archivos se comparten por git. Regla: si un archivo
 | 2026-10-13 | Catálogo sísmico RSN — SGC (formato nuevo, 2018+) | https://bdrsnc.sgc.gov.co/paginas1/catalogo/Consulta_Experta_Seiscomp/consultaexperta.php | Región Santander; bloques 2018–2020, 2021–2023 y 2024–2026; Excel | reporte424.xlsx, 2021-2023.xlsx, reporte1336.xlsx | equipo |
 | 2026-10-13 | Atlas Geológico de Colombia 2020: Fallas Geológicas — SGC (CC BY 4.0) | https://datos.sgc.gov.co/datasets/e03339c845d24e7baceb6d67397a23b3_0 | Ninguno (descarga nacional completa) | atlas_fallas_2020_sgc.geojson | Diego |
 | 2026-10-13 | Catálogo sísmico RSN — SGC (KML, no se usa) | https://bdrsnc.sgc.gov.co/paginas1/catalogo/ | Santander 2018+ | kml_sismos_1761.kml | equipo |
+| 2026-10-13 | Población total censada CNPV 2018 — DANE (geoportal) | https://geoportal.dane.gov.co/mparcgis/rest/services/INDICADORES_DE_POBLACION/Serv_Mpios_DistribucionPoblacionTotalCen_2018/MapServer/4 | Departamento 68 (Santander); código, nombre y total de personas | dane_cnpv2018_municipios_santander.json | build |
+| 2026-10-13 | Anexo:Municipios de Santander (área y provincia; cita datos DANE) | https://es.wikipedia.org/wiki/Anexo:Municipios_de_Santander | Tabla de municipios; se guardó el parseo de área, provincia y población | municipios_santander_area_provincia_wikipedia.json | build |
 | 2026-10-13 | Unificación intermedia de un compañero (no es fuente oficial) | — | — | datos_sismicos_santander.xlsx | compañero |
 
-Dos notas:
+Tres notas:
 
 - `kml_sismos_1761.kml` no se usa: no trae tipo de magnitud, RMS, gap ni errores.
 - `datos_sismicos_santander.xlsx` tiene los mismos sismos que nuestro dataset limpio (y 22 repetidos de más). Se guarda solo para comparar.
+- `municipios_santander_area_provincia_wikipedia.json` es un parseo de la tabla del anexo (no una descarga directa); se guarda para que el script 06 sea reproducible sin internet.
 
 Reglas: registrar la dirección web, la fecha y los filtros apenas se descargue (§6 del brief). El documento del entregable va en `Presentacion/fuente_oficial.md`.
