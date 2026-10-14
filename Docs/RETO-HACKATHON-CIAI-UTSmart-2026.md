@@ -132,12 +132,12 @@ Un proyecto que no cumpla puede presentarse, pero **no es elegible para premiaci
 
 | # | Entregable | Ubicación en el repo | Estado |
 |---|---|---|---|
-| 1 | Dataset limpio (CSV) | `datos/processed/dataset_limpio.csv` | pendiente |
+| 1 | Dataset limpio (CSV) | `datos/processed/dataset_limpio.csv` | listo (175.185 sismos; hueco 2014–2017 documentado) |
 | 2 | Diccionario de datos con justificación por variable | `Presentacion/diccionario_de_datos.md` | pendiente |
-| 3 | Fuente oficial citada (dirección web, fecha y filtros) | `Presentacion/fuente_oficial.md` | pendiente |
-| 4 | Código del análisis y del entrenamiento (cuaderno o repo reproducible) | `notebooks/` y `modelos/*/` | pendiente |
-| 5 | El modelo obligatorio de la categoría con sus métricas y validación | cards en `modelos/*/README.md` | pendiente |
-| 6 | El prototipo o la demostración | `app/` | pendiente |
+| 3 | Fuente oficial citada (dirección web, fecha y filtros) | `Presentacion/fuente_oficial.md` | listo (catálogo SGC ×2 y Atlas de Fallas 2020) |
+| 4 | Código del análisis y del entrenamiento (cuaderno o repo reproducible) | `notebooks/` y `modelos/*/` | listo (`notebooks/` 01–05 + cuadernos en `modelos/*/`) |
+| 5 | El modelo obligatorio de la categoría con sus métricas y validación | cards en `modelos/*/README.md` | listo (cards de supervisado y no supervisado + LEEME del agente) |
+| 6 | El prototipo o la demostración | `app/` | listo (`app/sismo_app_F/`; insumos reales en `datos/para_app/`) |
 | 7 | La presentación para el pitch final | `Presentacion/pitch/` | pendiente |
 
 > La web oficial agrupa 1 + 2 y enumera 6 entregables; aquí se separan para seguimiento. Checklist vivo en `Presentacion/README.md`.
@@ -203,7 +203,7 @@ Recomendaciones del brief del equipo (no son requisitos oficiales):
 2. **Cronograma del brief vs agenda oficial:** el brief proponía trabajar hasta las 18:00 con modelado a las 11:30–14:00; la agenda oficial cierra entregas a las **12:00 m.** y las presentaciones empiezan a las 14:00 (§10). Planificar con la agenda oficial.
 3. **Variable objetivo:** el requisito pide que no se calcule directamente de las variables de entrada, pero el ejemplo oficial del Básico usa umbrales de magnitud por municipio y año (derivables de los datos). Definir el target, justificarlo y dejarlo documentado (§7).
 4. **Alcance para Avanzado:** "cumplir los retos Básico y Medio" sugiere entregar también los modelos supervisado y no supervisado; confirmar si se exigen formalmente o basta con evidenciar sus componentes en el flujo.
-5. **Registro de fuentes:** falta hacer las descargas y anotar URL, fecha y filtros exactos (§6).
+5. **Registro de fuentes:** hecho — catálogo del SGC (×2) y Atlas de Fallas 2020 con URL, fecha y filtros en `Presentacion/fuente_oficial.md` y `datos/raw/README.md` (§6).
 6. **Artefactos grandes:** GitHub rechaza archivos de más de 100 MB; si un modelo o dataset pesa demasiado, subirlo por enlace externo y documentarlo en la card.
 
 ## 14. Glosario
