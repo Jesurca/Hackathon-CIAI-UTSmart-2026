@@ -1,0 +1,638 @@
+{
+ "displayFieldName": "DPTO_CCDGO",
+ "fieldAliases": {
+  "MPIO_CCDGO": "Código de municipio",
+  "MPIO_CNMBR": "Municipio",
+  "CL0_TT_PERSN": "Total de personas"
+ },
+ "fields": [
+  {
+   "name": "MPIO_CCDGO",
+   "type": "esriFieldTypeString",
+   "alias": "Código de municipio",
+   "length": 5
+  },
+  {
+   "name": "MPIO_CNMBR",
+   "type": "esriFieldTypeString",
+   "alias": "Municipio",
+   "length": 60
+  },
+  {
+   "name": "CL0_TT_PERSN",
+   "type": "esriFieldTypeDouble",
+   "alias": "Total de personas"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68001",
+    "MPIO_CNMBR": "BUCARAMANGA",
+    "CL0_TT_PERSN": 528855
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68013",
+    "MPIO_CNMBR": "AGUADA",
+    "CL0_TT_PERSN": 1662
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68020",
+    "MPIO_CNMBR": "ALBANIA",
+    "CL0_TT_PERSN": 3317
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68051",
+    "MPIO_CNMBR": "ARATOCA",
+    "CL0_TT_PERSN": 7913
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68077",
+    "MPIO_CNMBR": "BARBOSA",
+    "CL0_TT_PERSN": 28769
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68079",
+    "MPIO_CNMBR": "BARICHARA",
+    "CL0_TT_PERSN": 7647
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68081",
+    "MPIO_CNMBR": "BARRANCABERMEJA",
+    "CL0_TT_PERSN": 199564
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68092",
+    "MPIO_CNMBR": "BETULIA",
+    "CL0_TT_PERSN": 5230
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68101",
+    "MPIO_CNMBR": "BOLIVAR",
+    "CL0_TT_PERSN": 9567
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68121",
+    "MPIO_CNMBR": "CABRERA",
+    "CL0_TT_PERSN": 1621
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68132",
+    "MPIO_CNMBR": "CALIFORNIA",
+    "CL0_TT_PERSN": 1832
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68147",
+    "MPIO_CNMBR": "CAPITANEJO",
+    "CL0_TT_PERSN": 5328
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68152",
+    "MPIO_CNMBR": "CARCASÍ",
+    "CL0_TT_PERSN": 4130
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68160",
+    "MPIO_CNMBR": "CEPITÁ",
+    "CL0_TT_PERSN": 1869
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68162",
+    "MPIO_CNMBR": "CERRITO",
+    "CL0_TT_PERSN": 6460
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68167",
+    "MPIO_CNMBR": "CHARALA",
+    "CL0_TT_PERSN": 11035
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68169",
+    "MPIO_CNMBR": "CHARTA",
+    "CL0_TT_PERSN": 2824
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68176",
+    "MPIO_CNMBR": "CHIMA",
+    "CL0_TT_PERSN": 2364
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68179",
+    "MPIO_CNMBR": "CHIPATÁ",
+    "CL0_TT_PERSN": 4341
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68190",
+    "MPIO_CNMBR": "CIMITARRA",
+    "CL0_TT_PERSN": 25782
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68207",
+    "MPIO_CNMBR": "CONCEPCIÓN",
+    "CL0_TT_PERSN": 5300
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68209",
+    "MPIO_CNMBR": "CONFINES",
+    "CL0_TT_PERSN": 2915
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68615",
+    "MPIO_CNMBR": "RIONEGRO",
+    "CL0_TT_PERSN": 25266
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68655",
+    "MPIO_CNMBR": "SABANA DE TORRES",
+    "CL0_TT_PERSN": 27845
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68669",
+    "MPIO_CNMBR": " SAN ANDRES",
+    "CL0_TT_PERSN": 8035
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68673",
+    "MPIO_CNMBR": "SAN BENITO",
+    "CL0_TT_PERSN": 2706
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68679",
+    "MPIO_CNMBR": "SAN GIL",
+    "CL0_TT_PERSN": 54687
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68682",
+    "MPIO_CNMBR": "SAN JOAQUÍN",
+    "CL0_TT_PERSN": 2167
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68684",
+    "MPIO_CNMBR": "SAN JOSÉ DE MIRANDA",
+    "CL0_TT_PERSN": 4153
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68686",
+    "MPIO_CNMBR": "SAN MIGUEL",
+    "CL0_TT_PERSN": 2433
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68689",
+    "MPIO_CNMBR": "SAN VICENTE DE CHUCURI",
+    "CL0_TT_PERSN": 29427
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68705",
+    "MPIO_CNMBR": "SANTA BARBARA",
+    "CL0_TT_PERSN": 2239
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68720",
+    "MPIO_CNMBR": "SANTA HELENA DEL OPÓN",
+    "CL0_TT_PERSN": 3166
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68745",
+    "MPIO_CNMBR": "SIMACOTA",
+    "CL0_TT_PERSN": 7842
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68755",
+    "MPIO_CNMBR": "SOCORRO",
+    "CL0_TT_PERSN": 29997
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68770",
+    "MPIO_CNMBR": "SUAITA",
+    "CL0_TT_PERSN": 8771
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68773",
+    "MPIO_CNMBR": "SUCRE",
+    "CL0_TT_PERSN": 6044
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68780",
+    "MPIO_CNMBR": "SURATÁ",
+    "CL0_TT_PERSN": 3520
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68820",
+    "MPIO_CNMBR": "TONA",
+    "CL0_TT_PERSN": 6680
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68855",
+    "MPIO_CNMBR": "VALLE DE SAN JOSE",
+    "CL0_TT_PERSN": 5648
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68861",
+    "MPIO_CNMBR": "VÉLEZ",
+    "CL0_TT_PERSN": 19376
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68867",
+    "MPIO_CNMBR": "VETAS",
+    "CL0_TT_PERSN": 1762
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68872",
+    "MPIO_CNMBR": "VILLANUEVA",
+    "CL0_TT_PERSN": 6738
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68895",
+    "MPIO_CNMBR": "ZAPATOCA",
+    "CL0_TT_PERSN": 8997
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68370",
+    "MPIO_CNMBR": "JORDÁN SUBE",
+    "CL0_TT_PERSN": 1163
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68377",
+    "MPIO_CNMBR": "LA BELLEZA",
+    "CL0_TT_PERSN": 5505
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68385",
+    "MPIO_CNMBR": "LANDÁZURI",
+    "CL0_TT_PERSN": 9238
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68397",
+    "MPIO_CNMBR": "LA PAZ",
+    "CL0_TT_PERSN": 3989
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68406",
+    "MPIO_CNMBR": "LEBRÍJA",
+    "CL0_TT_PERSN": 37214
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68418",
+    "MPIO_CNMBR": "LOS SANTOS",
+    "CL0_TT_PERSN": 12433
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68425",
+    "MPIO_CNMBR": "MACARAVITA",
+    "CL0_TT_PERSN": 2130
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68432",
+    "MPIO_CNMBR": "MÁLAGA",
+    "CL0_TT_PERSN": 19884
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68444",
+    "MPIO_CNMBR": "MATANZA",
+    "CL0_TT_PERSN": 4499
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68464",
+    "MPIO_CNMBR": "MOGOTES",
+    "CL0_TT_PERSN": 10165
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68468",
+    "MPIO_CNMBR": "MOLAGAVITA",
+    "CL0_TT_PERSN": 3915
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68498",
+    "MPIO_CNMBR": "OCAMONTE",
+    "CL0_TT_PERSN": 4537
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68500",
+    "MPIO_CNMBR": "OIBA",
+    "CL0_TT_PERSN": 10117
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68502",
+    "MPIO_CNMBR": "ONZAGA",
+    "CL0_TT_PERSN": 3955
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68522",
+    "MPIO_CNMBR": "PALMAR",
+    "CL0_TT_PERSN": 1253
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68524",
+    "MPIO_CNMBR": "PALMAS DEL SOCORRO",
+    "CL0_TT_PERSN": 2467
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68533",
+    "MPIO_CNMBR": "PÁRAMO",
+    "CL0_TT_PERSN": 4144
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68547",
+    "MPIO_CNMBR": "PIEDECUESTA",
+    "CL0_TT_PERSN": 157425
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68549",
+    "MPIO_CNMBR": "PINCHOTE",
+    "CL0_TT_PERSN": 4508
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68572",
+    "MPIO_CNMBR": "PUENTE NACIONAL",
+    "CL0_TT_PERSN": 12586
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68573",
+    "MPIO_CNMBR": "PUERTO PARRA",
+    "CL0_TT_PERSN": 6861
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68575",
+    "MPIO_CNMBR": "PUERTO WILCHES",
+    "CL0_TT_PERSN": 31698
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68211",
+    "MPIO_CNMBR": "CONTRATACIÓN",
+    "CL0_TT_PERSN": 3296
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68217",
+    "MPIO_CNMBR": "COROMORO",
+    "CL0_TT_PERSN": 4816
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68229",
+    "MPIO_CNMBR": "CURITÍ",
+    "CL0_TT_PERSN": 11653
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68235",
+    "MPIO_CNMBR": "EL CARMEN DE CHUCURI",
+    "CL0_TT_PERSN": 17638
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68245",
+    "MPIO_CNMBR": "EL GUACAMAYO",
+    "CL0_TT_PERSN": 1643
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68250",
+    "MPIO_CNMBR": "EL PEÑÓN",
+    "CL0_TT_PERSN": 4097
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68255",
+    "MPIO_CNMBR": "EL PLAYÓN",
+    "CL0_TT_PERSN": 12966
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68264",
+    "MPIO_CNMBR": " ENCINO",
+    "CL0_TT_PERSN": 2334
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68266",
+    "MPIO_CNMBR": "ENCISO",
+    "CL0_TT_PERSN": 3394
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68271",
+    "MPIO_CNMBR": "FLORIÁN",
+    "CL0_TT_PERSN": 4603
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68276",
+    "MPIO_CNMBR": "FLORIDABLANCA",
+    "CL0_TT_PERSN": 275109
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68296",
+    "MPIO_CNMBR": "GALÁN",
+    "CL0_TT_PERSN": 2682
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68298",
+    "MPIO_CNMBR": "GÁMBITA",
+    "CL0_TT_PERSN": 3529
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68307",
+    "MPIO_CNMBR": "GIRÓN",
+    "CL0_TT_PERSN": 150610
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68318",
+    "MPIO_CNMBR": "GUACA",
+    "CL0_TT_PERSN": 5762
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68320",
+    "MPIO_CNMBR": "GUADALUPE",
+    "CL0_TT_PERSN": 3880
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68322",
+    "MPIO_CNMBR": "GUAPOTÁ",
+    "CL0_TT_PERSN": 2052
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68324",
+    "MPIO_CNMBR": "GUAVATÁ",
+    "CL0_TT_PERSN": 3751
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68327",
+    "MPIO_CNMBR": "GÜEPSA",
+    "CL0_TT_PERSN": 4405
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68344",
+    "MPIO_CNMBR": "HATO",
+    "CL0_TT_PERSN": 2120
+   }
+  },
+  {
+   "attributes": {
+    "MPIO_CCDGO": "68368",
+    "MPIO_CNMBR": "JESÚS MARÍA",
+    "CL0_TT_PERSN": 2991
+   }
+  }
+ ]
+}

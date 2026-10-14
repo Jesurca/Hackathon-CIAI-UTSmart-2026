@@ -1,0 +1,440 @@
+{
+ "_fuente": "Anexo:Municipios de Santander (es.wikipedia.org), consultado 2026-10-13. Superficies y población (proyección DANE 2025) citadas en ese anexo.",
+ "municipios": {
+  "Aguada (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 76,
+   "poblacion_2025": 1958
+  },
+  "Albania (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 167,
+   "poblacion_2025": 4352
+  },
+  "Aratoca": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 170,
+   "poblacion_2025": 8787
+  },
+  "Barbosa (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 46,
+   "poblacion_2025": 33341
+  },
+  "Barichara": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 134,
+   "poblacion_2025": 11242
+  },
+  "Barrancabermeja": {
+   "provincia": "Provincia de Yariguíes",
+   "area_km2": 1154,
+   "poblacion_2025": 217742
+  },
+  "Betulia (Santander)": {
+   "provincia": "Provincia de Yariguíes",
+   "area_km2": 324,
+   "poblacion_2025": 6313
+  },
+  "Bolívar (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 957,
+   "poblacion_2025": 12000
+  },
+  "Bucaramanga": {
+   "provincia": "Provincia Metropolitana",
+   "area_km2": 162,
+   "poblacion_2025": 623881
+  },
+  "Cabrera (Santander)": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 68,
+   "poblacion_2025": 2046
+  },
+  "California (Santander)": {
+   "provincia": "Provincia de Soto",
+   "area_km2": 261,
+   "poblacion_2025": 2275
+  },
+  "Capitanejo (Santander)": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 81,
+   "poblacion_2025": 5777
+  },
+  "Carcasí": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 426,
+   "poblacion_2025": 4494
+  },
+  "Cepitá": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 139,
+   "poblacion_2025": 2133
+  },
+  "Cerrito (Santander)": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 549,
+   "poblacion_2025": 7159
+  },
+  "Charalá": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 411,
+   "poblacion_2025": 12924
+  },
+  "Charta": {
+   "provincia": "Provincia de Soto",
+   "area_km2": 152,
+   "poblacion_2025": 3040
+  },
+  "Chima": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 152,
+   "poblacion_2025": 3030
+  },
+  "Chipatá": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 94,
+   "poblacion_2025": 5399
+  },
+  "Cimitarra (Colombia)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 3166,
+   "poblacion_2025": 35979
+  },
+  "Concepción (Santander)": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 686,
+   "poblacion_2025": 6086
+  },
+  "Confines": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 88,
+   "poblacion_2025": 3272
+  },
+  "Contratación": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 120,
+   "poblacion_2025": 3896
+  },
+  "Coromoro": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 247,
+   "poblacion_2025": 5334
+  },
+  "Curití": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 247,
+   "poblacion_2025": 13398
+  },
+  "El Carmen de Chucurí": {
+   "provincia": "Provincia de Yariguíes",
+   "area_km2": 914,
+   "poblacion_2025": 22758
+  },
+  "El Guacamayo": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 101,
+   "poblacion_2025": 2291
+  },
+  "El Peñón (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 142,
+   "poblacion_2025": 5443
+  },
+  "El Playón (Santander)": {
+   "provincia": "Provincia Metropolitana",
+   "area_km2": 468,
+   "poblacion_2025": 14313
+  },
+  "Encino (Santander)": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 417,
+   "poblacion_2025": 2756
+  },
+  "Enciso (Santander)": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 73,
+   "poblacion_2025": 3677
+  },
+  "Florián": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 170,
+   "poblacion_2025": 6127
+  },
+  "Floridablanca (Santander)": {
+   "provincia": "Provincia Metropolitana",
+   "area_km2": 97,
+   "poblacion_2025": 342373
+  },
+  "Galán (Santander)": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 206,
+   "poblacion_2025": 3059
+  },
+  "Gámbita": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 607,
+   "poblacion_2025": 4251
+  },
+  "San Juan de Girón": {
+   "provincia": "Provincia Metropolitana",
+   "area_km2": 475,
+   "poblacion_2025": 176745
+  },
+  "Guaca (Santander)": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 382,
+   "poblacion_2025": 6339
+  },
+  "Guadalupe (Santander)": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 156,
+   "poblacion_2025": 4782
+  },
+  "Guapotá": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 66,
+   "poblacion_2025": 2533
+  },
+  "Guavatá": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 56,
+   "poblacion_2025": 4484
+  },
+  "Güepsa": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 33,
+   "poblacion_2025": 5441
+  },
+  "Hato (Santander)": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 182,
+   "poblacion_2025": 2443
+  },
+  "Jesús María (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 72,
+   "poblacion_2025": 3469
+  },
+  "Jordán (Santander)": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 33,
+   "poblacion_2025": 1413
+  },
+  "La Belleza": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 219,
+   "poblacion_2025": 6727
+  },
+  "La Paz (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 270,
+   "poblacion_2025": 5267
+  },
+  "Landázuri": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 630,
+   "poblacion_2025": 10782
+  },
+  "Lebrija (Santander)": {
+   "provincia": "Provincia Metropolitana",
+   "area_km2": 854,
+   "poblacion_2025": 46375
+  },
+  "Los Santos (Santander)": {
+   "provincia": "Provincia Metropolitana",
+   "area_km2": 242,
+   "poblacion_2025": 15608
+  },
+  "Macaravita": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 110,
+   "poblacion_2025": 2289
+  },
+  "Málaga (Santander)": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 58,
+   "poblacion_2025": 21866
+  },
+  "Matanza (Santander)": {
+   "provincia": "Provincia de Soto",
+   "area_km2": 243,
+   "poblacion_2025": 5377
+  },
+  "Mogotes (Santander)": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 488,
+   "poblacion_2025": 10966
+  },
+  "Molagavita": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 197,
+   "poblacion_2025": 4355
+  },
+  "Ocamonte": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 84,
+   "poblacion_2025": 6252
+  },
+  "Oiba": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 287,
+   "poblacion_2025": 11194
+  },
+  "Onzaga": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 487,
+   "poblacion_2025": 4329
+  },
+  "Palmar (Santander)": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 22,
+   "poblacion_2025": 1501
+  },
+  "Palmas del Socorro": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 57,
+   "poblacion_2025": 2688
+  },
+  "Páramo (Santander)": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 81,
+   "poblacion_2025": 4947
+  },
+  "Piedecuesta": {
+   "provincia": "Provincia Metropolitana",
+   "area_km2": 344,
+   "poblacion_2025": 193440
+  },
+  "Pinchote": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 54,
+   "poblacion_2025": 5544
+  },
+  "Puente Nacional (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 248,
+   "poblacion_2025": 15716
+  },
+  "Puerto Parra": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 761,
+   "poblacion_2025": 8003
+  },
+  "Puerto Wilches": {
+   "provincia": "Provincia de Yariguíes",
+   "area_km2": 1539,
+   "poblacion_2025": 36165
+  },
+  "Rionegro (Santander)": {
+   "provincia": "Provincia Metropolitana",
+   "area_km2": 1278,
+   "poblacion_2025": 27283
+  },
+  "Sabana de Torres": {
+   "provincia": "Provincia de Yariguíes",
+   "area_km2": 1428,
+   "poblacion_2025": 35145
+  },
+  "San Andrés (Santander)": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 278,
+   "poblacion_2025": 9227
+  },
+  "San Benito (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 67,
+   "poblacion_2025": 3089
+  },
+  "San Gil (Colombia)": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 145,
+   "poblacion_2025": 64138
+  },
+  "San Joaquín (Santander)": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 192,
+   "poblacion_2025": 2325
+  },
+  "San José de Miranda": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 85,
+   "poblacion_2025": 4489
+  },
+  "San Miguel (Santander)": {
+   "provincia": "Provincia de García Rovira",
+   "area_km2": 71,
+   "poblacion_2025": 2711
+  },
+  "San Vicente de Chucurí": {
+   "provincia": "Provincia de Yariguíes",
+   "area_km2": 1195,
+   "poblacion_2025": 37031
+  },
+  "Santa Bárbara (Santander)": {
+   "provincia": "Provincia Metropolitana",
+   "area_km2": 224,
+   "poblacion_2025": 2532
+  },
+  "Santa Helena del Opón": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 388,
+   "poblacion_2025": 3601
+  },
+  "Simacota": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 1413,
+   "poblacion_2025": 10882
+  },
+  "El Socorro (Santander)": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 122,
+   "poblacion_2025": 36199
+  },
+  "Suaita": {
+   "provincia": "Provincia Comunera",
+   "area_km2": 281,
+   "poblacion_2025": 10783
+  },
+  "Sucre (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 607,
+   "poblacion_2025": 7643
+  },
+  "Suratá": {
+   "provincia": "Provincia de Soto",
+   "area_km2": 348,
+   "poblacion_2025": 4167
+  },
+  "Tona (Santander)": {
+   "provincia": "Provincia de Soto",
+   "area_km2": 342,
+   "poblacion_2025": 7718
+  },
+  "Valle de San José": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 84,
+   "poblacion_2025": 6444
+  },
+  "Vélez (Santander)": {
+   "provincia": "Provincia de Vélez",
+   "area_km2": 271,
+   "poblacion_2025": 26504
+  },
+  "Vetas": {
+   "provincia": "Provincia de Soto",
+   "area_km2": 93,
+   "poblacion_2025": 2388
+  },
+  "Villanueva (Santander)": {
+   "provincia": "Provincia de Guanentá",
+   "area_km2": 48,
+   "poblacion_2025": 8875
+  },
+  "Zapatoca": {
+   "provincia": "Provincia Metropolitana",
+   "area_km2": 360,
+   "poblacion_2025": 10094
+  }
+ }
+}
